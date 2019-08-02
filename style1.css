@@ -1,0 +1,36 @@
+body{
+  background: rgb(129,49,115);
+  background: linear-gradient(0deg, rgba(129,49,115,1) 0%, rgba(159,92,160,1) 100%);
+text-align: center;
+color: White
+
+}
+h4 {
+  color: Black
+text-align: center;
+background-color: Violet;
+height: 20px;
+width: 40%;
+padding: 20px;
+margin: auto;
+display: block
+}
+
+.Music {
+  text-align: center;
+  float: left;
+  width: 560px;
+  height: 560px;
+  font-family: monospace;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,44 @@
+body {
+background-color: lavender;
+text-align: center;
+}
+a
+{
+  text-align: center;
+  width: 10px;
+  height: 10px;
+}
+#lmfao {
+text-align: center;
+background-color: White;
+height: 100px;
+width: 50%;
+padding: 20px;
+margin: auto;
+display: none;
+font-family: monospace;
+border: 10px solid transparent;
+padding: 10px;
+border-image: url(border.png) 30 round;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 20px;
+}
+h4 {
+text-align: center;
+}
+.raven {
+  text-align: center;
+  background-color: transparent;
+  margin: auto;
+  display: block;
+}
+
+#ravenimg {
+  display: none;
+}
